@@ -262,7 +262,7 @@ def a_star_algorithm(draw, grid, start, end):
 
         
 grid = make_grid()
-start, end = generate_random_grid(grid)
+start, end = generate_default_grid(grid)
 
 run = True
 started = False
